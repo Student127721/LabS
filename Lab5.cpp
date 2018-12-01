@@ -56,6 +56,15 @@ int sortString(char*, int);
 void printResult(int);
 ///Функция осуществляет проверку введенных пользователем данных и возвращает введенное число
 int Check();
+char* letterChange(char* s, int n)
+{
+	int len = strlen(s);
+	for (int i = 0; i < len ; i++)
+	{
+			s[i] = toupper(s[i]);
+	}
+	return s;
+}
 
 int main() {
 	SetConsoleCP(1251);
