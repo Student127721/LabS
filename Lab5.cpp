@@ -81,6 +81,8 @@ int main() {
 
 	bool arrEntered = false;
 	bool arrEntered1 = false;
+	
+	printf("Спасибо что используете данную программу!");
 
 	
 	while (menu != 4)
